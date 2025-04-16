@@ -4,3 +4,6 @@
 [submodule "xr/ILLIXR_3.0"]
 	path = xr/ILLIXR_3.0
 	url = https://github.com/izenderi/ILLIXR.git
+[submodule "xr/depthai_hand_tracker"]
+	path = xr/depthai_hand_tracker
+	url = https://github.com/izenderi/depthai_hand_tracker.git
