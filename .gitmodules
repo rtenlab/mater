@@ -1,0 +1,3 @@
+[submodule "robot/src/ros_kortex"]
+	path = robot/src/ros_kortex
+	url = https://github.com/izenderi/ros_kortex.git
