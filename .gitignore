@@ -3,3 +3,8 @@
 
 # Vscode
 .vscode/
+
+# robot
+robot/build/
+robot/devel/
+robot/src/CMakeLists.txt
