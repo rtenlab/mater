@@ -1,3 +1,6 @@
 [submodule "robot/src/ros_kortex"]
 	path = robot/src/ros_kortex
 	url = https://github.com/izenderi/ros_kortex.git
+[submodule "xr/ILLIXR_3.0"]
+	path = xr/ILLIXR_3.0
+	url = https://github.com/izenderi/ILLIXR.git
