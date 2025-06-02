@@ -41,4 +41,4 @@ RUN cd /root/trex2/robot && rosdep install --from-paths src --ignore-src -y
 
 # cakin_make and setup.bash
 WORKDIR /root/trex2/robot
-RUN . /opt/ros/noetic/setup.sh && catkin_make
+RUN rm -rf build devel && . /opt/ros/noetic/setup.sh && catkin_make
