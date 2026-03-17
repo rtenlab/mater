@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-noetic-ros-base=1.5.0-1* 
 
 # copy the directory
-COPY ./trex2 /root/trex2
+COPY ./mater /root/mater
 
 # Run the dependency installation
 RUN apt-get update && apt-get install -y libgazebo11-dev \
@@ -37,8 +37,8 @@ RUN python3 -m pip install conan==1.59
 RUN conan config set general.revisions_enabled=1
 RUN conan profile new default --detect > /dev/null
 RUN conan profile update settings.compiler.libcxx=libstdc++11 default
-RUN cd /root/trex2/robot && rosdep install --from-paths src --ignore-src -y
+RUN cd /root/mater/robot && rosdep install --from-paths src --ignore-src -y
 
 # cakin_make and setup.bash
-WORKDIR /root/trex2/robot
+WORKDIR /root/mater/robot
 RUN rm -rf build devel && . /opt/ros/noetic/setup.sh && catkin_make

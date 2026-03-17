@@ -24,4 +24,4 @@ gnome-terminal -- bash -c "./2_5_run_move_gen3.sh $XR_IP; exec bash" &
 echo "SUCCESS: ./move_gen3.py $XR_IP"
 sleep 1
 
-echo "TREX2 robot side run sequecne complete! Please Add RobotModel in RViz"
+echo "MATER robot side run sequecne complete! Please Add RobotModel in RViz"
