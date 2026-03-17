@@ -21,9 +21,9 @@ Welcome to the official repository for **$MATER$**: Mutually Aware Framework for
 }
 ```
 ## Table of Contents
-- [Structure](#structure)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Structure](https://github.com/rtenlab/mater/wiki)
+- [Installation](https://github.com/rtenlab/mater/wiki/Setup)
+- [Usage](https://github.com/rtenlab/mater/wiki/Usage)
 
 ## Structure
 The **$MATER$** framework includes both the robot and XR side code for the teleoperation system. The robot side code is implemented in C++ and ROS2, while the XR side code is implemented in Unity. The framework is designed to be modular and extensible, allowing for easy integration of new features and functionalities.
