@@ -16,7 +16,7 @@
 Welcome to the official repository for **$MATER$**: Mutually Aware Framework for Teleoperated-robot with Extended Reality. This repository is hosted by RTEN Lab at UC Riverside. Please consider citing our work if you find it useful in your research. The citation information is provided below.
 
 ```bibtex
-@proceeding{zhang2023mater,
+@proceeding{zhang2026mater,
   TODO
 }
 ```
