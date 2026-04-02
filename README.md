@@ -17,7 +17,16 @@ Welcome to the official repository for **$MATER$**: Mutually Aware Framework for
 
 ```bibtex
 @proceeding{zhang2026mater,
-  TODO
+  author  = {Ziliang Zhang and Cong Liu and Hyoseung Kim},
+  title   = {{MATER}: Mutually Aware Framework for Teleoperated-robot with Extended Reality},
+  journal = {Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume  = {10},
+  number  = {2},
+  articleno = {45},
+  month   = jun,
+  year    = {2026},
+  pages   = {1--23},
+  doi     = {10.1145/3805643}
 }
 ```
 ## Table of Contents
